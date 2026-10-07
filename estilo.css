@@ -1,0 +1,12 @@
+:root { --fondo: #F8F4F2; --texto: #2B2327; --texto-2: #4A3F44; --acento: #A8326E; --enlace: #7E2152; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--fondo); color: var(--texto); font-family: "Segoe UI", system-ui, sans-serif; font-size: 17px; line-height: 1.6; }
+main { max-width: 720px; margin: 0 auto; padding: 40px 16px 64px; }
+.marca { font-family: Georgia, serif; font-weight: 700; font-size: 26px; letter-spacing: 2px; margin: 0 0 24px; }
+.marca, .marca a { color: var(--acento); text-decoration: none; }
+h1 { font-size: 30px; line-height: 1.2; margin: 0 0 8px; }
+h2 { font-size: 20px; margin: 32px 0 8px; }
+p, li { color: var(--texto-2); }
+a { color: var(--enlace); }
+.fecha { font-size: 15px; color: #6E6268; margin-top: 0; }
+.enlaces { padding-left: 20px; }
